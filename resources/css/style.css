@@ -138,7 +138,6 @@ h2 {
   height: auto;
   margin: 1.5rem;
   width: 60%;
-  border-right: 1px solid #D8D8D8;
   padding: 32px 24px;
 }
 
@@ -165,11 +164,12 @@ p.quoted {
 
 .quoted {
   font-size: 0.75rem;
-  padding: 1rem 0;
+  padding: 32px;
 }
 
 .inforight {
   flex-direction: column;
+  border-left: 1px solid #D8D8D8;
 }
 
 .infoarticle {
@@ -213,6 +213,52 @@ p.quoted {
   background-color: #EAEBEC;
 }
 
-.course {
+.coursebegin {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
+.courses.flex {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 56rem;
+  align-self: center;
+}
+
+.course {
+  width: 17.5rem;
+  margin-bottom: 32px;
+  text-align: left;
+  flex-direction: column;
+  background-color: white;
+  transition: all 100ms ease-in;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.coursesection {
+  padding: 0 0 16px 16px;
+}
+
+.coursetitle {
+  font-size: 1.3rem;
+  margin-top: 1.25rem;
+}
+
+.coursesection p {
+  color: #7A7A7A;
+  font-weight: 300;
+  line-height: 1.5;
+  padding-bottom: 0.5rem;
+}
+
+/* Thesis Section */
+.thesis {
+  background-color: #F3F5F5;
+  flex-direction: column;
 }
