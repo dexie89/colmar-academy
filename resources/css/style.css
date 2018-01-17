@@ -155,7 +155,7 @@ h2 {
 .infoleft p {
   color: #7A7A7A;
   font-weight: 300;
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 p.quoted {
@@ -164,7 +164,7 @@ p.quoted {
 
 .quoted {
   font-size: 0.75rem;
-  padding: 32px;
+  padding-bottom: 32px;
 }
 
 .inforight {
@@ -211,6 +211,9 @@ p.quoted {
 /* Learn Section */
 .learn {
   background-color: #EAEBEC;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .coursebegin {
