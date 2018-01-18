@@ -4,6 +4,17 @@ html {
   display: block;
   font-size: 16px;
   font-family: "roboto";
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1
 }
 
 a {
@@ -149,13 +160,19 @@ h2 {
 .infoleft h3 {
   font-size: 2rem;
   font-weight: 600;
+  padding-top: 32px;
   padding-bottom: 24px;
 }
 
 .infoleft p {
   color: #7A7A7A;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1.8;
+}
+
+.quote {
+  font-style: italic;
+  margin: 1rem 0;
 }
 
 p.quoted {
@@ -177,7 +194,6 @@ p.quoted {
   border-bottom: 1px solid gray;
   width: 100%;
   padding: 2rem 0rem 1.5rem 2rem;
-  border-bottom: 1px solid #D8D8D8;
 }
 
 .infoarticle img {
@@ -264,4 +280,55 @@ p.quoted {
 .thesis {
   background-color: #F3F5F5;
   flex-direction: column;
+}
+
+.thesis h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.thesisleft {
+  flex-direction: column;
+  height: auto;
+  margin: 0rem 0rem 0rem 1.5rem;
+  width: 61.5%;
+  padding-right: 1.5rem;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  align-items: left;
+}
+
+video {
+  width: 60%;
+  height: auto;
+}
+
+.thesisleft h3 {
+  font-size: 1.3rem;
+  padding: 1.5rem 0;
+}
+
+.thesisleft p {
+  color: #7A7A7A;
+  font-weight: 300;
+  line-height: 1.5;
+  padding-right: 24px;
+}
+
+.thesisright {
+  flex-direction: column;
+
+}
+
+/* Footer */
+footer.container {
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.footerright p {
+  padding-left: 1rem; 
 }
