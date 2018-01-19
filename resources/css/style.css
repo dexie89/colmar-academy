@@ -28,6 +28,10 @@ a {
   margin: 0 auto;
 }
 
+.gray {
+  color: #7A7A7A;
+}
+
 .mobile {
   display: none;
 }
@@ -39,7 +43,7 @@ header {
   position: fixed;
   z-index: 1;
   background-color: white;
-  border-bottom: 1px solid rgb(56, 56, 56)
+  border-bottom: 1px solid rgb(56, 56, 56);
 }
 
 nav {
@@ -90,6 +94,16 @@ nav {
   justify-content: center;
   width: 30rem;
   padding-top: 5rem;
+}
+
+.bannertext .btn {
+  padding: 8px 0 8px 0;
+  background-color: #1c91c7;
+  color: #F3F5F5;
+  text-align: center;
+  margin-top: 1.5rem;
+  width: 80%;
+  font-size: 1.5rem;
 }
 
 .infoleft {
@@ -160,7 +174,7 @@ nav {
 }
 
 video {
-  width: 60%;
+  width: 100%;
   height: auto;
 }
 
@@ -180,12 +194,13 @@ video {
 
 .thesisinfoarticle {
   width: 100%;
-  padding: 1.5rem 0rem 1.5rem 1.5rem
+  padding: 1.5rem 0rem 1.5rem 1.5rem;
+  align-items: center;
 }
 
 footer.container {
   justify-content: space-between;
-  padding: 0 1.5rem 2.5rem 1.5rem;
+  padding: 16px 24px 0 24px;
 }
 
 /* Colour Background */
@@ -197,7 +212,7 @@ footer.container {
   background-color: #F3F5F5;
 }
 
-.learn {done
+.learn {
   background-color: #EAEBEC;
 }
 .thesis {
@@ -227,7 +242,7 @@ footer.container {
   color: #7A7A7A;
   font-weight: 300;
   line-height: 1.5;
-  font-size: ;
+  text-align: left;
 }
 
 .infoleft h3 {
@@ -254,7 +269,7 @@ footer.container {
 }
 
 .quoted {
-  font-size: 0.75rem;
+  font-size: 1rem;
   margin-bottom: 32px;
 }
 
@@ -279,7 +294,7 @@ footer.container {
 
 .thesisleft h3 {
   font-size: 1.3rem;
-  padding: 24px 0;
+  padding: 24px 8px;
   text-align: left;
 }
 
@@ -288,7 +303,8 @@ footer.container {
   font-weight: 300;
   line-height: 1.5;
   text-align: left;
-  width: 28rem;
+  width: 100%;
+  margin-bottom: 32px;
 }
 
 .thesis h2 {
@@ -300,6 +316,7 @@ footer.container {
 
 .footerright p {
   padding-left: 24px;
+  font-size: 1rem;
 }
 
 p.quoted {
